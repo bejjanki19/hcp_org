@@ -1,12 +1,12 @@
 provider "aws" {
 
-  region = "us-east-1"
+  region = "ap-south-1"
 
 }
 
 resource "aws_instance" "name" {
 
-  ami           = "ami-0f8a61b66d1accaee"
+  ami           = "ami-01a00762f46d584a1"
 
   instance_type = "t3.micro"
 
